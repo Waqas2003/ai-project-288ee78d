@@ -1,0 +1,60 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  color: white;
+}
+
+.App-intro {
+  font-size: 24px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.book-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.book-list li {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.book-list li:last-child {
+  border-bottom: none;
+}
+
+.book-form {
+  margin-top: 20px;
+}
+
+.book-form input {
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #ccc;
+}
+
+.book-form button[type="submit"] {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.book-form button[type="submit"]:hover {
+  background-color: #3e8e41;
+}
